@@ -1,8 +1,8 @@
-## Two functions makeCacheMatrix and cacheSolve determines inverse of
-## a matrix in a efficient way, by chching earlier computed results.
+## Two functions makeCacheMatrix and cacheSolve together determines inverse
+## of a matrix in an efficient manner, by chching earlier computed results.
 
 ## Function makeCacheMatrix creates an object x for which it exposes 
-## methods set, get, setInverse, and get Inverse. 
+## methods set, get, setInverse, and getInverse. 
 
 makeCacheMatrix <- function(x = matrix()) {
     my_inverse <- NULL
